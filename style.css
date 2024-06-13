@@ -2,40 +2,45 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
-header h1 {
+header .logo {
     margin: 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav li {
-    display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
     padding: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -46,4 +51,9 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
 }
